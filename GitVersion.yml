@@ -22,16 +22,37 @@ branches:
     source-branches: ["master"]
 
 ignore:
-  sha: []
-  commits-before: 2019-10-23T00:00:00
+  sha: [
+    cb4bc9584b35fb276cf94b633d421506d9fa1228,
+    c984a0f9adf2c088b5a3d9ca43cb7da85777f505,
+    11a752d4aca4e4c34fdc7dd9592342e7acbfd992,
+    1d417cee9570e819dc47b6ec7f1198a29784464d,
+    fb71bdb71077dd0e9006b27b52153432c46080f9,
+    d4522d1d4b1e071baa4707e946ccbd965ceed3bb,
+    cf6ba476dec244097d5c84acabcb14362277b511,
+    f0c2755b62bf262e65ca059fcfc245f6b1474d41,
+    ad09bfd1e697e098af2457f6d9e3a112f8a4ca1d,
+    ad09bfd1e697e098af2457f6d9e3a112f8a4ca1d,
+    7e0223755b7014b127c3f447f27b096c478ccef9,
+    5e48918f541d33cb40caf710d37c86f9bd11171a,
+    a1817376f56a6925a2f5ff7d13e4a880636a29cb,
+    750e36cd3b55c364a5349b0bdcc46f894c751ae6,
+    563a3f208d2b51c35b850bf298d8005150ded923,
+    cb4bc9584b35fb276cf94b633d421506d9fa1228,
+    c984a0f9adf2c088b5a3d9ca43cb7da85777f505,
+    11a752d4aca4e4c34fdc7dd9592342e7acbfd992,
+    1d417cee9570e819dc47b6ec7f1198a29784464d,
+    fb71bdb71077dd0e9006b27b52153432c46080f9,
+    d4522d1d4b1e071baa4707e946ccbd965ceed3bb,
+    cf6ba476dec244097d5c84acabcb14362277b511,
+    f0c2755b62bf262e65ca059fcfc245f6b1474d41,
+    ad09bfd1e697e098af2457f6d9e3a112f8a4ca1d,
+    ad09bfd1e697e098af2457f6d9e3a112f8a4ca1d,
+    7e0223755b7014b127c3f447f27b096c478ccef9,
+    5e48918f541d33cb40caf710d37c86f9bd11171a,
+    a1817376f56a6925a2f5ff7d13e4a880636a29cb,
+    750e36cd3b55c364a5349b0bdcc46f894c751ae6,
+    563a3f208d2b51c35b850bf298d8005150ded923
+  ]
+  commits-before:
 merge-message-formats: {}
-# feature:
-#   tag: useBranchName
-#   increment: Minor
-#   regex: f(eature(s)?)?[/-]
-#   source-branches: ['master']
-# hotfix:
-#   tag: fix
-#   increment: Patch
-#   regex: (hot)?fix(es)?[/-]
-#   source-branches: ['master']
